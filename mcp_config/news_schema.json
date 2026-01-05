@@ -1,0 +1,15 @@
+{
+  "tool_name": "thenews_latest",
+  "intent": "news",
+  "description": "Get latest news headlines",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "topic": {
+        "type": "string",
+        "description": "Optional topic filter"
+      }
+    },
+    "required": []
+  }
+}
